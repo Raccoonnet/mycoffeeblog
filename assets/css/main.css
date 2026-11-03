@@ -66,6 +66,8 @@ a:hover {
   text-align: center;
   text-decoration: none;
   color: inherit;
+  position: relative;
+  display: inline-block;
 }
 
 .city-card img {
@@ -78,6 +80,18 @@ a:hover {
 .city-card span {
   display: block;
   margin-top: 8px;
+}
+
+.overlay-text {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 /* Navigation Bar */
